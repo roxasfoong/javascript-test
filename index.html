@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaysia Capital Weather</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="dataTables.bootstrap5.min.css" />
+    <script src="jquery-3.7.1.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="currentWeather" class="container mb-5">
+        <h2 class="mb-0 text-uppercase">Current Weather</h6>
+            <hr />
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="currentWeatherTable" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Location</th>
+                                    <th>Date & Time</th>
+                                    <th>Weather Icon</th>
+                                    <th>Weather Description</th>
+                                    <th>Temperature</th>
+                                </tr>
+                            </thead>
+                            <tbody id="currentWeatherBody">
+                                <tr>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="message"></h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div id="forecastWeather" class="container">
+        <h2 class="mb-0 text-uppercase">Forecast Weather</h6>
+            <hr />
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table id="forecastTable" class="table table-striped table-bordered" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>Location</th>
+                                    <th>Date & Time</th>
+                                    <th>Weather Icon</th>
+                                    <th>Weather Description</th>
+                                    <th>Temperature</th>
+                                </tr>
+                            </thead>
+                            <tbody id="forecastBody">
+                                <tr>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+                                    <td>Unable to Fetch Data</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 id="message"></h1>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
+    <script src="dataTables.bootstrap5.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
